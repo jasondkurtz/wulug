@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en" id="Top">
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+      charset="UTF-8"
+    />
+    <link rel="stylesheet" href="css/defaults.css" />
+    <link rel="stylesheet" href="css/partnerships.css" />
+    <title>WuLUG | Partnerships</title>
+    <link rel="icon" type="image/x-icon" href="assets/wulug.ico" />
+    <script defer src="js/partnerships.js"></script>
+  </head>
+
+  <div class="nav-background">
+    <img src="assets/wulug-logo-title.webp" class="wulug-logo" />
+
+    <nav>
+      <li class="navbar_button">
+        <a class="navbar_button_link" href="index.html">Events</a>
+      </li>
+      <li class="navbar_button">
+        <a class="navbar_button_link" href="recruitment.html">Join Us</a>
+      </li>
+      <li class="navbar_button">
+        <a class="navbar_button_link" href="gallery.html">Gallery</a>
+      </li>
+      <li class="navbar_button">
+        <a class="navbar_button_link" href="partnerships.html">Partnerships</a>
+      </li>
+      <li class="navbar_button">
+        <a class="navbar_button_link" href="about.html">About Us</a>
+      </li>
+    </nav>
+
+    <div class="icon-bar">
+      <a href="https://discord.gg/n6yKHmhBYV"
+        ><img
+          class="social_media_button"
+          src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6266bc493fb42d4e27bb8393_847541504914fd33810e70a0ea73177e.ico"
+      /></a>
+      <a
+        href="https://wichita.campuslabs.com/engage/organization/wichita-linux-users-group"
+        ><img
+          class="social_media_button"
+          src="https://wichita.campuslabs.com/engage/icons/favicon.ico?v=zXryopmz8G"
+      /></a>
+      <a href="mailto:wulug@wichita.edu"
+        ><img class="social_media_button" src="assets/email_icon.png"
+      /></a>
+      <a href="https://www.facebook.com/wulug/"
+        ><img
+          class="social_media_button"
+          src="https://static.xx.fbcdn.net/rsrc.php/yB/r/2sFJRNmJ5OP.ico"
+      /></a>
+      <a href="https://x.com/wu_lug"
+        ><img
+          class="social_media_button"
+          src="https://abs.twimg.com/favicons/twitter.3.ico"
+      /></a>
+      <a href="https://www.youtube.com/channel/UCpEvDhNAyB1Dnx5CJkYuE0g"
+        ><img class="social_media_button" src="assets/youtube.png"
+      /></a>
+    </div>
+  </div>
+
+  <div class="headline-image">
+    <div class="headline-text">
+      <h2 class="partnerships-title">Current Partnerships</h2>
+
+      <div class="partnerships"></div>
+      <h2 class="become_partner-title">Wanna Collab? Let us know.</h2>
+
+      <!-- HTML15. Form: proper placeholder, label -->
+      <form class="partnerships-form">
+        <!-- Org name (Text element) -->
+        <label for="org-name">Organization Name:</label>
+        <input
+          type="text"
+          id="org-name"
+          name="org-name"
+          placeholder="WiCyS at Wichita State"
+          required
+        />
+
+        <!-- Dropdown: student org type -->
+        <label for="org-type">Organization Type:</label>
+        <select id="org-type" name="org-type" required>
+          <option value="">-- Select One --</option>
+          <option value="technical">Security related event</option>
+          <option value="cultural">WSU Recognized Organization</option>
+          <option value="honor">Local Restaurant</option>
+          <option value="service">Sorority / Fraternity</option>
+          <option value="professional">
+            Professional Development / Industry Professionals
+          </option>
+          <option value="other">Other not listed</option>
+        </select>
+
+        <!-- Contact person -->
+        <label for="contact-name">Primary Contact:</label>
+        <input
+          type="text"
+          id="contact-name"
+          name="contact-name"
+          placeholder="Billy Bob"
+          required
+        />
+
+        <!-- Email -->
+        <label for="email">Email Address:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="billybobber@bluemountainstate.edu"
+          required
+        />
+
+        <!-- Is student org at WSU? (Radio button)-->
+        <p>Is your organization registered at Wichita State University?</p>
+        <label
+          ><input type="radio" name="at_wsu" value="yes" required /> Yes</label
+        >
+        <label><input type="radio" name="at_wsu" value="no" /> No</label>
+
+        <!-- Services offered (Check box)-->
+        <p>How would you like to collaborate with us?</p>
+        <label
+          ><input type="checkbox" name="collab" value="workshops" /> Co-host
+          workshops</label
+        >
+        <label
+          ><input type="checkbox" name="collab" value="events" /> Co-host
+          events</label
+        >
+        <label
+          ><input type="checkbox" name="collab" value="promotion" /> Promotion &
+          networking</label
+        >
+        <label
+          ><input type="checkbox" name="collab" value="other" /> Other</label
+        >
+
+        <!-- Org & Goals Description (Text area) -->
+        <label for="description"
+          >Tell us about your organization and goals for partnering:</label
+        >
+        <textarea
+          id="description"
+          name="description"
+          rows="5"
+          placeholder="We’re interested in co-hosting technical workshops with WULUG..."
+        ></textarea>
+
+        <!-- Reset button & Submit button -->
+        <div class="form-buttons">
+          <button type="submit">Submit Request</button>
+          <button type="reset">Reset Form</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="footer">
+    <!-- Social Media Icons -->
+    <div class="social">
+      <a href="https://discord.gg/n6yKHmhBYV"
+        ><img
+          class="social_media_button"
+          src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6266bc493fb42d4e27bb8393_847541504914fd33810e70a0ea73177e.ico"
+          alt="Discord"
+      /></a>
+      <a
+        href="https://wichita.campuslabs.com/engage/organization/wichita-linux-users-group"
+        ><img
+          class="social_media_button"
+          src="https://wichita.campuslabs.com/engage/icons/favicon.ico?v=zXryopmz8G"
+          alt="Campus Labs"
+      /></a>
+      <a href="mailto:wulug@wichita.edu"
+        ><img
+          class="social_media_button"
+          src="assets/email_icon.png"
+          alt="Email"
+      /></a>
+      <a href="https://www.facebook.com/wulug/"
+        ><img
+          class="social_media_button"
+          src="https://static.xx.fbcdn.net/rsrc.php/yB/r/2sFJRNmJ5OP.ico"
+          alt="Facebook"
+      /></a>
+      <a href="https://x.com/wu_lug"
+        ><img
+          class="social_media_button"
+          src="https://abs.twimg.com/favicons/twitter.3.ico"
+          alt="Twitter"
+      /></a>
+      <a href="https://www.youtube.com/channel/UCpEvDhNAyB1Dnx5CJkYuE0g"
+        ><img
+          class="social_media_button"
+          src="assets/youtube.png"
+          alt="YouTube"
+      /></a>
+    </div>
+
+    <!-- Nav Footer Links -->
+    <ul class="list-inline">
+      <li class="footer_navbar_button_link"><a href="index.html">Events</a></li>
+      <li class="footer_navbar_button_link">
+        <a href="recruitment.html">Join Us</a>
+      </li>
+      <li class="footer_navbar_button_link">
+        <a href="gallery.html">Gallery</a>
+      </li>
+      <li class="footer_navbar_button_link">
+        <a href="partnerships.html">Partnerships</a>
+      </li>
+      <li class="footer_navbar_button_link">
+        <a href="about.html">About Us</a>
+      </li>
+    </ul>
+
+    <!-- Copyright Text -->
+    <p class="copyright">WuLUG © 2025</p>
+  </div>
+</html>

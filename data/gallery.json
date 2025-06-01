@@ -1,0 +1,26 @@
+[
+    {
+        "category_name":"WuLUG Events in 2025",
+        "photo_urls_folder": "./assets/Gallery_Photos/2025",
+        "title_color":"rgb(235, 213, 116)",
+        "timestamp":"2025-01-01T01:30:00"
+    },
+    {
+        "category_name":"WuLUG Events in 2024",
+        "photo_urls_folder": "./assets/Gallery_Photos/2024",
+        "title_color":"rgb(235, 213, 116)",
+        "timestamp":"2024-03-01T01:30:00"
+    },
+    {
+        "category_name":"Rocky Mountain Regional Collegiate Cyber Defense Competition (RCCDC) in March 2025",
+        "photo_urls_folder": "./assets/Gallery_Photos/CCDC_2025",
+        "title_color":"#C0C0C0",
+        "timestamp":"2025-03-01T01:30:00"
+    },
+    {
+        "category_name":"WuLUG Events Past",
+        "photo_urls_folder": "./assets/Gallery_Photos/2023",
+        "title_color":"rgb(235, 213, 116)",
+        "timestamp":"2023-01-01T01:30:00"
+    }
+]

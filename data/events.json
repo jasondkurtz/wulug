@@ -1,0 +1,101 @@
+[
+    {
+      "id": "NCL2025",
+      "img": "assets/Event_Photos/NCL.png",
+      "alt": "NCL logo",
+      "title": "NCL Team Game 2025",
+      "short_desc": "Create your team and participate in the spring Team Game in National Cyber League! If you need a code, contact an Officer to request one.",
+      "desc": "Be sure to participate in this weekend-long competitive event. Players can compete in teams of up to 7 and work to solve as many challenges as they can. You can also participate as a team of 1 if you would like to compete solo. If you need a code, contact an Officer to request one.",
+      "timestamp": "2025-04-25T12:00:00"
+    },
+    {
+      "id": "FPGA2025",
+      "img": "assets/Event_Photos/fpga_workshop.png",
+      "alt": "FPGA Workshop banner",
+      "title": "FPGA Workshop",
+      "short_desc": "Join WiCyS and WuLUG in exploring the fundamentals of FPGAs and digital design in this interactive session with Austin Antony!",
+      "desc": "Join WiCyS and WuLug in exploring the fundamentals of FPGAs and digital design in this interactive session with Austin Antony! He is a junior here at Wichita State University studying electrical and computer engineering interning with Garmin this summer as a FPGA design engineer intern. He will introduce logic gates, FPGA applications, and basic Verilog to implement a basic circuit. This workshop is perfect for beginners looking to explore hardware design!",
+      "timestamp": "2025-04-18T18:00:00"
+    },
+    {
+      "id": "MHH2025",
+      "img": "./assets/Event_Photos/mental_health_hackers.png",
+      "alt": "Mental Health Hackers logo",
+      "title": "Mental Health Hackers Guest Speaker",
+      "short_desc": "Presentation by guest speaker Eric Lee – the Chief Emotional Officer from Mental Health Hackers!",
+      "desc": "Join WSU WiCyS for a presentation by guest speaker Eric Lee - the Chief Emotional Officer from Mental Health Hackers! Eric is a Solutions Architect at AWS focusing on cloud infrastructure and IAM. He will address work burnout, the current state of the workforce, anxiety, depression, social isolation and much more!",
+      "timestamp": "2025-04-04T16:30:00"
+    },
+    {
+      "id": "EOYB2025",
+      "img": "assets/Event_Photos/banquet.png",
+      "alt": "End of Year Banquet logo",
+      "title": "End of the Year Banquet",
+      "short_desc": "Join WSU WiCyS and WuLug for our last event of the semester!",
+      "desc": "Join WiCyS x WULUG at Beggs 231 for our last event of the semester!\n We will be eating food, playing games, honoring our seniors, and announcing next years’ officers!🍽️ 🎮 https://discord.gg/Yj7gfV4X?event=1366497724039434401",
+      "timestamp": "2025-05-02T18:00:00"
+    },
+    {
+      "id": "IEEE2025",
+      "img": "assets/Event_Photos/Soldering_Workshop_Flyer.jpeg",
+      "alt": "IEEE logo",
+      "title": "IEEE Soldering Workshop",
+      "short_desc": "WSU's IEEE student branch is organizing a soldering workshop for a fundraising event!",
+      "desc": "Hey everyone, looks like next friday WSU's IEEE student branch is organizing a soldering workshop for a fundraising event! While I will remind you again about the workshops available at the Project Innovation Hub, this seems like a fun event so make sure to register early if you're interested!",
+      "timestamp": "2025-02-28T13:00:00"
+    },
+    {
+      "id": "CDO2025",
+      "img": "assets/Event_Photos/Rickey_Anderson_Digital_Flyer.jpg",
+      "alt": "CDO logo",
+      "title": "CDO Technologies Hiring Event",
+      "short_desc": "Join us for a networking opportunity with a local tech company!",
+      "desc": "Dr. Rickey Anderson, Senior Program Manager from CDO Technologies, will be on campus on the 18th of February at 4:30pm in RSC Room 266 to discuss career opportunities with his company, many of which are in the Wichita area. CDO is a leading government contractor in the tech sector with a focus on cybersecurity services.",
+      "timestamp": "2025-02-18T16:30:00"
+    },
+    {
+      "id": "V2025",
+      "img": "assets/Event_Photos/valentines_day_2025.jpg",
+      "alt": "Valentines Day 2025 logo",
+      "title": "Valentines Day Party",
+      "short_desc": "Whether you've got a Valentine or not, we'll be yours this Friday! Come on by for pizza and punch as well as a chance to win from a prize from over $300 worth of goodies!",
+      "desc": "Whether you've got a Valentine or not, we'll be yours this Friday! Come on by for pizza and punch as well as a chance to win from a prize from over $300 worth of goodies we've got: -Prizes to be ate -Prizes for your date -Prizes made from molds -Prizes you can hold All you have to do to win is show up, swipe in, and be there for the drawing! All are welcome and don't be afraid to bring a friend! This is a social event for hanging out and playing games! Whether you're lonesome or loathsome, hitched or ditched, we want WU to be our Valentine! See you nerds Friday! 6pm in the club room!",
+      "timestamp": "2025-02-18T16:30:00"
+    },
+    {
+      "id": "FBI2024",
+      "img": "assets/Event_Photos/fbi.png",
+      "alt": "FBI Recruiting Event logo",
+      "title": "FBI Recruiting Event",
+      "short_desc": "Join us for a Special Event with an FBI!",
+      "desc": "Join us for a Special Event with an FBI Recruiter Learn about various career opportunities throughout the FBI - including career paths in the FBl's Cyber Crimes Squad!",
+      "timestamp": "2024-11-01T12:00:00"
+    },
+    {
+      "id": "SECLESSONS2024",
+      "img": "assets/Event_Photos/gordon_shumway.jpg",
+      "alt": "Security Lessons Event logo",
+      "title": "Security Lessons You Won't Learn in School.",
+      "short_desc": "Delve into a range of clever tactics, strategies, and solutions drawn from decades in the security industry with Gordon Shumway!",
+      "desc": "With Gordon Shumway an accomplished author, private investigator, professional bad guy, and security expert with more than thirty years of experience in various fields, including physical security, protective services, forensics, ransom and recovery operations, incident response, and red teaming for Las Vegas casinos. Renowned for developing innovative solutions and hardware for security firms, Gordon is dedicated to bringing the latest security technologies and tools to the community, ensuring they are accessible to all. Delve into a range of clever tactics, strategies, and solutions drawn from decades in the security industry. From weaponizing a treadmill for assessments to streamlining report writing, discover the insights and technologies you wish you’d learned that aren’t easily taught in a classroom.",
+      "timestamp": "2024-11-01T18:00:00"
+    },
+    {
+      "id": "CTFCLASS2025",
+      "img": "assets/Event_Photos/ethical_hacking_class.jpeg",
+      "alt": "Advanced Competitive Ethical Hacking logo",
+      "title": "New CTF Class in the Fall",
+      "short_desc": "Take advantage of AC 452/CS 452: Advanced Competitive Ethical Hacking!",
+      "desc": "Take advantage of the new class offered this Fall semester!\n\nAC 452/CS 452: Advanced Competitive Ethical Hacking!\n\n“Advanced capture the flag players take the knowledge built from AC 352/CS 352 and participate in a more challenging capture the flag competition as a team based on real world scenarios as opposed to the Jeopardy style questions of National Cyber League. These competitions could include but are not limited to the Collegiate Cyber Defense Competition and National Center of Academic Excellence Competition. Repeatable for up to 6 credit hours.”\n\nIf you would like to learn more about the class feel free to reach out to Joe or I! It is available for the Fall 2025 semester.",
+      "timestamp": "2025-08-18T23:59:00"
+    },
+    {
+      "id": "LPWJD2024",
+      "img": "assets/Event_Photos/LockPickingWithJack.png",
+      "alt": "Lock Picking with Jack Delmar logo",
+      "title": "Lock Picking with Jack Delmar",
+      "short_desc": "Join us for a special event with Jack Delmar on Lockpicking!",
+      "desc": "Join WiCyS x WULUG for an exciting hands-on \"Lock Picking with Jack\" workshop!\nLearn the art and techniques behind physical security, guided by Jack Delmar, as we explore the parallels between cybersecurity and lock picking.\nWhether you're a beginner or experienced, this event offers a fun, engaging way to enhance your problem-solving skills and understand real-world security challenges. All materials will be provided!",
+      "timestamp": "2024-11-01T14:30:00"
+    }
+  ]

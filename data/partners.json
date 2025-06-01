@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Women in CyberSecurity at Wichita State University (WiCYS)",
+    "link": "https://wichita.campuslabs.com/engage/organization/wicys",
+    "photo": "./assets/Partnership_Photos/WiCyS Square Logo.png",
+    "color":"rgb(128, 40, 143)"
+  },
+  {
+      "name": "Institute of Electrical and Electronics Engineers (IEEE) Student Branch",
+      "link": "https://edu.ieee.org/us-wichita/",
+      "photo": "./assets/Partnership_Photos/IEEE_logo.jpg",
+      "color":"rgb(25, 97, 151)"
+  }
+  ]
+  

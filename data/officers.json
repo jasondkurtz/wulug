@@ -1,0 +1,28 @@
+[
+    {
+      "name": "Daniel Halbleib Jr.",
+      "position": "Secretary",
+      "photo": "./assets/Officer_Photos/danny.jpg"
+    },
+    {
+        "name": "Hyacinthe Howell",
+        "position": "President",
+        "photo": "./assets/Officer_Photos/hyacinthe.jpg"
+    },
+    {
+      "name": "Jack Delmar",
+      "position": "Vice President",
+      "photo": "./assets/Officer_Photos/jack.jpg"
+    },
+    {
+        "name": "Divy Patel",
+        "position": "Treasurer",
+        "photo": "./assets/Officer_Photos/divy.jpg"
+    },
+    {
+      "name": "Renato S.",
+      "position": "Event Coordinator",
+      "photo": "./assets/Officer_Photos/renato.jpg"
+    }
+  ]
+  

@@ -1,0 +1,94 @@
+html, head, body {
+    background-color: #333;
+}
+
+.recruitment-title {
+    color: rgb(244, 213, 74);
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-size: 1.7vw;
+}
+
+.recruitment-title-credit {
+    color: rgb(244, 213, 74);
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-size: 1.7vw;
+}
+
+.recruitment-description {
+    font-weight: 900;
+    font-size: 1.2vw;
+}
+
+.recruitment-description>.recruitment-engineering-plus {
+    font-weight: 900;
+    color: rgb(244, 213, 74);
+}
+
+.recruitment-background-collage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("../assets/recruitment_banner.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.recruitment-background-collage-text {
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    max-width: 95%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding: 3%;
+}
+
+.memberImage {
+    transform: scale(1.15);
+    padding: 25px;
+}
+
+.memberImage:hover {
+    transform: scale(1.25);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+
+.discord {
+    color: rgb(84, 96, 223);
+}
+
+.recruitment-modal-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.recruitment-zoomed-img {
+    display: flex;
+    align-items: center;
+    width: 75%;
+    height: 85%;
+    margin: auto;
+    align-self: center;
+    aspect-ratio: 16 / 9;
+    flex-shrink: 0;
+    flex-grow: 0;
+    object-fit: contain;
+    gap: 5%;
+    padding: 1%;
+    border-radius: .5em;
+}

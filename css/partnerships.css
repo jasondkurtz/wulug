@@ -1,0 +1,172 @@
+.become_partner-title {
+    color: rgb(244, 213, 74);
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-size: 1.9vw;
+}
+
+.partnerships-title {
+    color: rgb(250, 250, 250);
+    text-transform: uppercase;
+    font-size: 1.9vw;
+    white-space: nowrap;
+}
+
+.about_us-description {
+    font-weight: 900;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.headline-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("../assets/recruitment_banner.webp");
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    opacity: 1;
+}
+
+.headline-text {
+    text-align: center;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.partnerships {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 1rem;
+}
+
+.emblem-card {
+    padding: 5%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.emblem-card>img {
+    height: auto;
+    max-width: 100%;
+    border: 1px solid rgb(244, 213, 74);
+    background-color: black;
+    object-fit: cover;
+    width: 70%;
+}
+
+.emblem-card>img:hover {
+    opacity: .8;
+}
+
+.emblem-card>.desc {
+    margin-top: 10px;
+    font-weight: 900;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.partnerships-form {
+    min-width: 900px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background: #333;
+    border-radius: 12px;
+    font-family: inherit;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+.partnerships-form-title {
+    text-transform: uppercase;
+    word-break: break-all
+}
+
+.partnerships-form h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: rgb(244, 213, 74);
+}
+
+.partnerships-form label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.partnerships-form input[type="text"],
+.partnerships-form input[type="email"],
+.partnerships-form select,
+.partnerships-form textarea {
+    width: 70%;
+    padding: 1.15rem;
+    text-align: center;
+    margin-top: 0.3rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.partnerships-form textarea {
+    resize: vertical;
+}
+
+.partnerships-form input[type="radio"],
+.partnerships-form input[type="checkbox"] {
+    margin-right: 0.5rem;
+    transform: scale(1.1);
+}
+
+.partnerships-form p {
+    margin-top: 1.5rem;
+    font-weight: bold;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.form-buttons button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    margin: auto;
+}
+
+button[type="reset"] {
+    background-color: #dc3545;
+    color: white;
+    margin: auto;
+    left: 5px;
+}
+
+#error-msg {
+    color: red;
+    margin-top: 1rem;
+    text-align: center;
+    display: none;
+}

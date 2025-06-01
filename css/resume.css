@@ -1,0 +1,176 @@
+/* HTML & CSS: 14. Background color */
+html {
+  background: url('../assets/wsu.jpg') no-repeat center center fixed;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-size: cover;
+  background-color: transparent;
+  padding: 3%;
+  font-size: 100%;
+  color: #000;
+}
+
+.title-section {
+  padding: .5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: transparent;
+}
+
+a {
+  color: #333ed4;
+}
+
+section {
+  padding: .5%;
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.562);
+}
+
+article {
+  padding: .3%;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  background-color: transparent
+}
+
+ul,
+ol {
+  background-color: transparent;
+  display: block;
+  text-align: left;
+  margin: auto;
+}
+
+.article-columns {
+  overflow: hidden;
+  /* Clear floats */
+}
+
+.article-columns ul,
+.article-columns ol {
+  width: 48%;
+  float: left;
+  margin: 1%;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+
+
+.header-title {
+  font-weight: 600;
+  letter-spacing: 0.4rem;
+  text-transform: uppercase;
+  font-size: 3rem;
+  text-shadow: .1rem .1rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+
+
+.header-sub-title {
+  font-weight: 600;
+  color: #757575;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.WSU {
+  color: #cac251;
+  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: black;
+}
+
+.shadow {
+  text-shadow: 2px 2px #000;
+}
+
+.cybersecurity_senior {
+  color: #ffffff;
+  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: black;
+}
+
+img {
+  width: 30%;
+  height: 30%;
+  margin: 0;
+  padding: 0;
+  display: block;
+  border-radius: 5%;
+  border-width: 1px;
+  border: black solid
+}
+
+.non-header-img {
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  padding: 0;
+  display: block;
+  border-radius: 5%;
+  border-width: 1px;
+  border: black solid
+}
+
+body {
+  width: 85%;
+  background-color: rgba(255, 255, 255, 0.733);
+  border-color: #333;
+  border: #333 solid;
+  justify-self: center;
+  line-height: 1.6;
+}
+
+nav {
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+nav a {
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: wavy;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  font-style: normal;
+  background-color: #ddd;
+  color: #333;
+}
+
+table {
+  border-collapse: collapse;
+  width: 70%;
+  margin: auto;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  padding: 2px;
+  text-align: center;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 2px;
+  text-align: center;
+  opacity: 1;
+}
+
+td:hover {
+  opacity: .8;
+}
